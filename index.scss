@@ -1,12 +1,21 @@
 body {
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: black;
 
 }
 
-.header {
-background-image: url(/space.jpg);
+
+
+.front {
+    text-align: center;
+    
 }
 
+.list-group {
+    background-color: white;
+    margin: 70px;
+    border-radius: 10px;
+
+}
 // .nav {
 
 // }
