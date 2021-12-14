@@ -1,0 +1,15 @@
+body {
+  background-color: rgba(0, 0, 0, 0.247);
+}
+
+.header {
+  background-image: url(/space.jpg);
+}
+
+.footer {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+}
+/*# sourceMappingURL=index.css.map */
