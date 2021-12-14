@@ -1,14 +1,14 @@
 body {
-  background-color: black;
+  background-color: #131030;
 }
 
 .head {
-  font-size: 27px;
+  font-size: 23px;
 }
 
 .button {
   color: #d14cdd;
-  background-color: cyan;
+  background-color: #32e6e6;
   border-radius: 6px;
 }
 
@@ -19,6 +19,7 @@ body {
 .list-group {
   background-color: white;
   margin: 70px;
+  padding: 30px;
   border-radius: 10px;
 }
 

@@ -1,15 +1,16 @@
 body {
-    background-color: black;
+    background-color: rgb(19, 16, 48);
 
 }
 
 .head {
-    font-size: 27px;
+    font-size: 23px;
+    
 }
 
 .button {
     color: rgb(209, 76, 221);
-    background-color: cyan;
+    background-color: rgb(50, 230, 230);
     border-radius: 6px;
 }
 
@@ -21,6 +22,7 @@ body {
 .list-group {
     background-color: white;
     margin: 70px;
+    padding: 30px;
     border-radius: 10px;
 
 }
