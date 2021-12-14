@@ -2,6 +2,16 @@ body {
   background-color: black;
 }
 
+.head {
+  font-size: 27px;
+}
+
+.button {
+  color: #d14cdd;
+  background-color: cyan;
+  border-radius: 6px;
+}
+
 .front {
   text-align: center;
 }
@@ -13,9 +23,7 @@ body {
 }
 
 .footer {
-  position: absolute;
-  height: 200px;
-  width: 100%;
-  bottom: 0;
+  color: #d14cdd;
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */
