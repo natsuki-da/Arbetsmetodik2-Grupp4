@@ -61,15 +61,20 @@
                             <tr>
                                 <th></th>
                                 <td>
-                                    <input type="radio" name="deactivate_delete" id="deactivate">
+                                    <input type="radio" name="deactivate_delete" id="deactivate" value="deactivate">
                                     <label for="deactivate">Deactivate account</label>
                                 </td>
                             </tr>
                             <tr>
                                 <th></th>
                                 <td>
-                                    <input type="radio" name="deactivate_delete" id="delete">
+                                    <input type="radio" name="deactivate_delete" id="delete" value="delete">
                                     <label for="delete">Delete account</label>
+                                </td>
+                            </tr>
+                                <th></th>
+                                <td>
+                                    <button class="button" onclick="getInputValues()">Continue</button>
                                 </td>
                             </tr>
                         </table>
@@ -81,6 +86,12 @@
 <script>
     var username = JSON.parse(localStorage.getItem("localUser"));
     document.getElementById("output").innerHTML = username;
+
+    function getInputValues() {
+        var deleteActivate = document.querySelector('input[type="radio"]:checked').value;
+        alert("Are you sure you want to " + deleteActivate + " your account?");
+    }
+
 </script>
 
 </body>
