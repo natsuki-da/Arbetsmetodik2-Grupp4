@@ -16,36 +16,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8 center"> 
-                <!-- <ul class="list-group">
-                    <li class="list-group-item">
-                        <p class="front"> <b>My Account: </b></p>
-                        <table class="table table-borderless">
-                            <tr style="height: 10px">
-                                <th>Name: </th>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th>Username: </th>
-                            </tr>
-                            <tr>
-                                <th>Deactivation and deletion </th>
-                            </tr>
-                            <tr>
-                                <td>Temporarily deactivate or permanently delete your account.</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input type="radio" name="deactivate" id="deactivate" value="">
-                                    <label for="deactivate"> Deactivate account</label>
-                                </td>
-                                <td>
-                                    <input type="radio" name="deactivate" id="deactivate" value="">
-                                    <label for="deactivate"> Deactivate account</label>
-                                </td>
-                            </tr>
-                        </table>
-                    </li>
-                </ul> -->
+                <!--box där man kan välja att avsluta/pausa medlemskap-->
 
                 <div class="list-group">
                     <p class="front"> <b>My Account: </b></p>
@@ -85,9 +56,10 @@
     </div>
     
 <script>
+    //variabel som sparar och skriver ut username
     var username = JSON.parse(localStorage.getItem("localUser"));
     document.getElementById("output").innerHTML = username;
-
+//funktion med confirm och alertbox ifall man vill avsluta/pausa medlemsskap
     function getInputValues() {
         var deleteActivate = document.querySelector('input[type="radio"]:checked').value;
         var result = confirm("Are you sure you want to " + deleteActivate + " your account?"); 
