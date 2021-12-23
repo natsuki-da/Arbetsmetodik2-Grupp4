@@ -80,7 +80,7 @@
 <p class="footer"> About us | Register | Contact <br>
 </p>
 </nav>
-<!--javascript som skriver ut username i output, navbaren-->
+<!--javascript som skriver ut username i output, navbaren. Obs! den hämtar inte värdet från profile filen utan från localStorage så vi lade till den här-->
 <script>
     var username = JSON.parse(localStorage.getItem("localUser"));
     document.getElementById("output").innerHTML = username;
