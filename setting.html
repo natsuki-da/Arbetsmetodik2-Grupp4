@@ -78,6 +78,7 @@
                                 </td>
                             </tr>
                         </table>
+                    <p class="front"><a href="index.html">Back</a></p>
                 </div>
             </div>
         </div>
@@ -89,7 +90,10 @@
 
     function getInputValues() {
         var deleteActivate = document.querySelector('input[type="radio"]:checked').value;
-        alert("Are you sure you want to " + deleteActivate + " your account?");
+        var result = confirm("Are you sure you want to " + deleteActivate + " your account?"); 
+        if(result) {
+            alert("Your account has been " + deleteActivate + "d");
+        } 
     }
 
 </script>

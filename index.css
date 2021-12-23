@@ -27,4 +27,16 @@ body {
   color: #d14cdd;
   text-align: center;
 }
+
+footer {
+  color: #d14cdd;
+  text-align: center;
+}
+
+.comingSoon_container {
+  background-color: white;
+  margin: 70px;
+  padding: 30px;
+  border-radius: 10px;
+}
 /*# sourceMappingURL=index.css.map */
