@@ -10,6 +10,7 @@ body {
   color: #d14cdd;
   background-color: #32e6e6;
   border-radius: 6px;
+  text-decoration: none;
 }
 
 .front {
@@ -18,7 +19,7 @@ body {
 
 .list-group {
   background-color: white;
-  margin: 20px;
+  margin-top: 50px;
   padding: 30px;
   border-radius: 10px;
 }
