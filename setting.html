@@ -56,7 +56,7 @@
     </div>
     
 <script>
-    //variabel som sparar och skriver ut username
+    //variabel som sparar och skriver ut username. Obs! den hämtar inte värdet från setting filen utan från localStorage så vi lade till den här
     var username = JSON.parse(localStorage.getItem("localUser"));
     document.getElementById("output").innerHTML = username;
 //funktion med confirm och alertbox ifall man vill avsluta/pausa medlemsskap
